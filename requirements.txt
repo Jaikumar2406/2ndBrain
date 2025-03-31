@@ -8,3 +8,4 @@ chromadb
 transformers
 flask==3.0.2
 gunicorn
+sentence-transformers

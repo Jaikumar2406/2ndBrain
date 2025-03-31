@@ -1,0 +1,10 @@
+pymongo
+langchain_groq
+langchain
+langchain_core
+langchain_community
+dotenv
+chromadb
+transformers
+flask==3.0.2
+gunicorn

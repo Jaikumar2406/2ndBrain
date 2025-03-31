@@ -16,6 +16,7 @@ import uuid
 load_dotenv()
 
 app = Flask(__name__)
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
 app.secret_key = os.getenv('FLASK_SECRET_KEY', 'default-secret-key')
 
 # Initialize MongoDB connection
